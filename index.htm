@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0029)http://www.cafecoffeeday.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link type="text/css" rel="stylesheet" href="demo/style.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="JSCounter/jsCount.min.js"></script>
+<script type="text/javascript" language="javascript">										
+
+$(document).ready(function(){											
+
+			$("#num2").jsCount({start:400,end:1021});
+						
+
+});
+</script>
+</head>
+
+<body>
+
+<h1 class="toplogo">JS Counter<br />
+ Jquery Plugin</h1>
+
+<div id="num2"></div>
+<p>
+JS Counter is a jquery plugin for showing up a frequently changing value number which counts the counter value from a start value to the current value as set by the user.
+</p>
+
+<h1>USAGE</h1>
+
+<p>Just call plugin with the id of a empty div contained inside your page.</p>
+
+<br />
+
+<p>javascript</p>
+<pre>
+
+$(document).ready(function(){											
+
+			$("#num").jsCount({start:980,end:1021});
+			
+
+});
+
+</pre>
+
+
+<p>html</p>
+<pre>
+
+&lt;div id=&quot;num&quot;&gt;
+&lt;/div&gt;
+
+</pre>
+
+
+<h1>DEMOS</h1>
+
+
+<p>Demo on top with counter set to 1021 counted from 400.</p>
+<div id="num"></div>
+
+</div>
+
+<pre>
+
+$(document).ready(function(){											
+
+			$("#num").jsCount({start:400,end:1021});
+			
+
+});
+
+</pre>
+
+
+<h1>OPTIONS</h1>
+
+<p> This Plugin provides following options. </p>
+<p> start and end values define the range in which the counter functions. </p>
+<p> You can use the speed option to set the speed of counter. It defines the number of micro seconds between each count. So lower the value higher the speed. </p>
+<p> default value for speed is 20. </p>
+
+
+<pre>
+
+$(document).ready(function(){											
+
+			$("#num").jsCount({start:980,end:1021,speed:10});
+			
+
+});
+
+</pre>
+
+<h1>Change Log</h1>
+<p>Version 1.0 (initial)</p>
+
+</body></html>

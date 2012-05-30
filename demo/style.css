@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import 'reset.css';
+
+html {
+	background: #EEE;
+}
+
+body {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 0 40px 0;
+	background: #FFF url(Texture0403.gif) 0 0 repeat;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:20px;
+}
+
+h1
+{
+	color:#06C;
+	background:#FFF;
+	font-weight:800;
+	font-size:24px;
+	padding:4px;
+	margin-top:50px;
+}
+
+h2
+{
+	color:#222;
+	background:#FFF;
+	font-weight:bolder;
+	font-size:20px;
+	padding:4px;
+	margin-top:50px;
+}
+
+p
+{
+	color:#555;
+	background:#FFF;
+	font-weight:400;
+	font-size:16px;
+	padding:10px;
+	margin-top:5px;
+}
+
+pre {
+	font-size: 10pt;
+	font-family: "Courier New";
+	background: #FFF;
+	padding: 10px 5px;
+	color: #444;
+}
+
+#form_holder
+{
+	width:250px;
+	padding:5px;
+}
+
+.form_sbmt
+{
+background:#000;border:thin solid 1px #000; cursor:pointer; padding:10px; color:#FFF; font-family:Tahoma, Geneva, sans-serif; font-size:14px; font-weight:800;
+display:block;
+}
+
+.form_sbmt:hover
+{
+padding:8px;
+display:block;
+}
+
+
+#container
+{
+	margin:440px 0px 0px 100px;
+}
+
+#demo_container
+{
+	width:100%;
+	overflow:auto;
+	background:#FFF;
+}
+
+.box
+{
+	border-collapse:collapse;
+	border:#666 1px solid;
+}
+
+.box td
+{
+	padding:15px;
+	color:#036;
+	border:1px solid #666;
+}
+
+.box th
+{
+	padding:5px;
+	border:1px solid #666;
+}
+
+.toplogo
+{
+	width:100px;
+	height:90px;
+	padding:50px 10px 10px 10px;
+	text-transform:uppercase;
+	text-align:center;
+	margin:-60px 0 30px 0;
+	background:url(headbg.jpg) 0 0 repeat-x; color:#FED;
+}
