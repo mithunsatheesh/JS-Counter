@@ -1,0 +1,62 @@
+h1. JS Counter jQuery Plugin
+
+*Version:* 1.0
+
+*License:* "Dual GPL + MIT"
+
+*Author:* "Mithun Satheesh"
+
+
+h2. About
+
+JS Counter is a jquery plugin for showing up a frequently changing value number which counts the counter value from a start value to the current value as set by the user. 
+
+h2. Browser Support
+
+Tested on IE8+, Safari, Chrome, Firefox 3+
+
+h2. Use
+
+h3. HTML
+
+<pre>
+<div id="num">
+</div>
+</pre>
+
+h3. Javascript
+
+<pre>
+$(document).ready(function(){											
+
+			$("#num").jsCount({start:980,end:1021});
+			
+
+});
+</pre>
+
+h2. Options
+
+This Plugin provides following options.
+
+start and end values define the range in which the counter functions.
+
+You can use the speed option to set the speed of counter. It defines the number of micro seconds between each count. So lower the value higher the speed.
+
+default value for speed is 20.
+
+<pre>
+$(document).ready(function(){											
+
+			$("#num").jsCount({start:980,end:1021,speed:10});
+			
+
+});
+</pre>
+
+
+h2. Changelog
+
+*Version 0.1*
+
+* Initial Release
